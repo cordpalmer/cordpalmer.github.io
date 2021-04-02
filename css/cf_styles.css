@@ -1,0 +1,73 @@
+/*Cord Palmer
+04 April 2021*/
+
+@font-face {
+    font-family: 'teaspoonregular';
+    src: url('teaspoon-webfont.woff2') format('woff2'),
+         url('teaspoon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+#outerwrapper {
+
+	text-align: left;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin: 3%;
+
+}
+
+.floatright {
+float: right;
+margin: 3%;
+
+}
+
+main, footer { 
+clear: both;
+}
+
+body{
+	background-color: #88d1eb;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+	background-color: #c5a98b;
+	padding: 10px 50px;
+}
+
+.nobullets{
+	list-style-type: none;
+}
+
+.tomatobullets{
+	list-style-image: url(../images/tomato.png);
+	text-align: left;
+}
+h1{
+	font-family: 'Teko', sans-serif;
+	font-size: xx-large;
+}
+
+h2{
+	font-family: 'teaspoonregular';
+	font-style: italic;
+}
+
+footer{
+	font-size: .75em;
+	text-align: center;
+	background-color: rgb(114, 81, 39);
+	padding: 10px 0px;
+}
