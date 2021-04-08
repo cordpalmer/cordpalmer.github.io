@@ -1,0 +1,44 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name:Cord Palmer 04/08/2021                                     */
+
+/* Add a pseudo-class selector (page 320) */
+/* For example --  :nth-child(even)       */
+table.tableStyle {
+    border: 3px solid #AAAAAA;
+    background-color: #89FFD5;
+    table-layout: fixed;
+    width: 90%;
+    margin-left: 55px;
+    
+  }
+  table.tableStyle td, table.tableStyle th {
+    border: 3px solid #AAAAAA;
+    padding: 3px 8px;
+    
+  }
+  table.tableStyle thead {
+    background: #DDDDDD;
+    border-bottom: 3px solid #444444;
+  }
+  table.tableStyle thead th {
+    font-weight: bold;
+    
+  }
+  table.tableStyle tfoot {
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+  }
+  table.tableStyle tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+
+  #grad {
+    background-image: linear-gradient(to left, rgb(167, 50, 137), rgb(4, 155, 243), rgb(1, 17, 1));
+  }
+
+  
+ 
+ 
+ 
+ 
