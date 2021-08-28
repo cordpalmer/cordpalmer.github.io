@@ -1,0 +1,40 @@
+
+
+/* Hero */
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("https://raw.githubusercontent.com/PalmerCord/PalmerCord.github.io/main/calypsoNight.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+
+  /*nav*/
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar > ul > li {
+    white-space: nowrap;
+    padding: 10px 0 10px 20px;
+  }
+
+  /* Main */
+  main h2 {
+      color: purple;
+      display: inline-block;
+  }
+
+  main p {
+      display: block;
+      font-weight: 600;
+      text-align: left;
+  }
