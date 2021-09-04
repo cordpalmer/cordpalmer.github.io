@@ -1,3 +1,16 @@
+/*********************************************************************
+***
+#Original Author: Cord Palmer
+#Date Created: 09/03/2021                                        #
+#Version: 1                                               #
+#Date Last Modified: 09/03/2021                             #
+#Modified by: Cord Palmer                                           *
+*Modification log: 09/03/2021 complete                               *
+***
+******************************************************************** */
+
+"use strict";
+
 const $ = selector => document.querySelector(selector);
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -40,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
         $("#email_1").value = "";
         $("#email_2").value = "";
         $("#first_name").value = "";
+        $("#last_name").value = "";
 
         $("#email_1").focus();
     });
